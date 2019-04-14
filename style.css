@@ -1,386 +1,387 @@
 body {
-    background: rgb(163, 162, 162);
-    color: black;
-    font-family: 'Merriweather', serif;
-  }
-  
-  a {
-    color:rgb(240, 88, 88);
-    transition: 0.5s;
-  }
-  
-  a:hover, a:active, a:focus {
-    color: #03c5ec;
-    outline: none;
-    text-decoration: none;
-  }
-  
-  p {
-    padding: 0;
-    margin: 0 0 30px 30px;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    margin: 0 0 20px 30px;
-    padding: 0;
-  }
-  
-  h1 {    
-      text-shadow: 4px 4px 4px rgb(243, 240, 240);  
-      color: #f6f6f6;  
-      text-align: center;
-      text-transform: uppercase;
-      animation: bounceIn 2s alternate infinite ease-in-out;      
-      margin-top: 200px;
-    }
-    
-    @keyframes bounceIn{
-      0%, 100% { 
-        transform: scale(0.1); 
-        transform: scale(0.1);
-        opacity: 0;
-      } 
-    
-      33% { 
-        transform: scale(1.2); 
-        transform: scale(1.2);
-        opacity: 1;
-      } 
-             
-      66% { 
-        transform: scale(0.8); 
-        transform: scale(0.8);        
-      }
-    }
-    
-    
-    
-  #omotac {
-    display: table;
-    width: 100%;
-    height: 100vh; /* 100% visine pregledača */
-    background: url(img/monitor-862116_960_720.jpg) top center;
-    background-size: cover;
-  }
-        
-  #omotac .omotac-container {    
-    /* zatamljena pozadina */
-    background: rgba(0, 0, 0, 0.8);
-    display: table-cell;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  #omotac .h1 {
-    margin: 30px 0 10px 0;
-    font-weight: 700;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: white;
-  }
-    
-  #omotac h2 {
-    color: #999;
-    margin-bottom: 50px;
-  }
-    
-  #omotac .actions a {
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 2px;   
-    margin: 10px;
-  }
-  
-  #omotac .dugme1 {
-    background: rgb(240, 88, 88);
-    border: 2px solid rgb(240, 88, 88);
-    color: white;
-  }
-  
-  #omotac .dugme1:hover {
-    background: none;
-    border: 2px solid white;
-    color: white;
-  }
-  
-  #omotac .dugme2 {
-    border: 2px solid white;
-    color: white;
-  }
-  
-  #omotac .dugme2:hover {
-    background:rgb(240, 88, 88);
-    border: 2px solid rgb(240, 88, 88);
-  }
-      
+  background: rgb(163, 162, 162);
+  color: black;
+  font-family: 'Merriweather', serif;  
+}
+.row {
+  margin: 0px;
+}
+.navbar {
+  min-height: 80px;
+}
 
-    .section-title {
-    font-size: 32px;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-  }
+a {
+  color: rgb(240, 88, 88);
+  transition: 0.5s;
+}
 
-  .section-description {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-   .section-title-divider {
-    width: 50px;
-    height: 3px;
-    background:rgb(240, 88, 88);
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-    
-  #oMeni {
-    background: white;
-    padding: 80px 0;
-  }
-    
-  
-   #tehn {   
-    padding: 80px 0 60px 0;
-  }
+a:hover, a:active, a:focus {
+  color: #03c5ec;
+  outline: none;
+  text-decoration: none;
+}
 
-  #tehn .dugme1 {
-    background: rgb(240, 88, 88);
-    border: 2px solid rgb(240, 88, 88);
-    color: white;
-  }
-  
-  #tehn .dugme1:hover {
-    background: none;
-    border: 2px solid rgb(98,98,98);
-    color: rgb(98,98,98);
-  }
-  
-  #tehn .service-item {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  
-  #tehn .service-icon {
-    float: left;
-    background:rgb(240, 88, 88);
-    padding: 16px;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid rgb(240, 88, 88);
-  }
-  
-  #tehn .service-icon i {
-    color: white;
-    font-size: 24px;
-  }
-  
-  #tehn .service-item:hover .service-icon {
-    background: white;
-  }
-  
-  #tehn .service-item:hover .service-icon i {
-    color:rgb(240, 88, 88);
-  }
-  
-  #tehn .service-title {
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
-  
-  #tehn .service-title a {
-    color: #111;
-  }
-  
-  #tehn .service-description {
-    margin-left: 80px;
-    line-height: 24px;
-  }
-  
+p {
+  padding: 0;
+  margin: 0 0 30px 30px;
+}
 
-  /* Subscribe Section
-  --------------------------------*/
-  #subscribe {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
-    background-size: cover;
-    padding: 80px 0;
-  }
-  
-  #subscribe .subscribe-title {
-    color: white;
-    font-size: 28px;
-    font-weight: 700;
-  }
-  
-  #subscribe .subscribe-text {
-    color: white;
-  }
-  
-  #subscribe .subscribe-btn-container {
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  #subscribe .subscribe-btn {
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid white;
-    color: white;
-  }
-  
-  #subscribe .subscribe-btn:hover {
-    background:rgb(240, 88, 88);
-    border: 2px solidrgb(240, 88, 88);
-  }
-  
-  /* Portfolio Section
-  --------------------------------*/
-  #portfolio {
-    background: white;
-    padding: 80px 0;
-  }
-  
-  #portfolio .portfolio-item {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 260px;
-    width: 100%;
-    display: table;
-    overflow: hidden;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    
-  }
-  
-  #portfolio .portfolio-item .tekst {
-    height: 260px;
-    background: white;
-    display: table-cell;
-    vertical-align: middle;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  margin: 0 0 20px 30px;
+  padding: 0;
+}
+
+h1 {
+  text-shadow: 4px 4px 4px rgb(243, 240, 240);
+  color: #f6f6f6;
+  text-align: center;
+  text-transform: uppercase;
+  animation: bounceIn 2s alternate infinite ease-in-out;
+  margin-top: 200px;
+}
+
+@keyframes bounceIn {
+  0%, 100% {
+    transform: scale(0.1);
+    transform: scale(0.1);
     opacity: 0;
-    transition: 0.5s;
-    text-align: center;
   }
-  
-  #portfolio .portfolio-item .tekst h4 {
-    font-size: 16px;
-    transition: transform 0.3s, opacity 0.3s;
-    transform: translate3d(-10px, -20px, 0);
-    font-weight: 700;
-    color: #333333;
+  33% {
+    transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
   }
-  
-  #portfolio .portfolio-item .tekst span {
-    display: block;
-    color: #666666;
-    font-size: 13px;
-    transition: transform 0.3s, opacity 0.3s;
-    transform: translate3d(10px, 20px, 0);
+  66% {
+    transform: scale(0.8);
+    transform: scale(0.8);
   }
-  
-  #portfolio .portfolio-item:hover .tekst {
-    opacity: 0.8;
-  }
-  
-  #portfolio .portfolio-item:hover .tekst h4 {
-    transform: translate3d(0, 0, 0);
-  }
-  
-  #portfolio .portfolio-item:hover .tekst span {
-    transform: translate3d(0, 0, 0);
-  }
-   
-  .infoMVP {
-    text-align: center;
-    display: flex-grow;
-    margin-bottom: 20px;
-  }
-  
-  .infoMVP .pic {
-    margin-bottom: 15px;
-    overflow: hidden;
-    height: 100px;    
-  }
-  
-  #oMeni .infoMVP .pic img {
-    max-width: 70%;
-  }
-  
-  #oMeni .infoMVP h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-  }
-  
-  #oMeni .infoMVP .social {
-    margin-top: 15px;
-  }
-  
-  #oMeni .infoMVP .social a {
-    color: #b3b3b3;
-  }
-  
-  #oMeni .infoMVP .social a:hover {
-    color:rgb(240, 88, 88);
-  }
-  
-  #oMeni .infoMVP .social i {
-    font-size: 18px;
-    margin: 0 2px;
-  }
-  
-  
-  #contact {
-    background: #f7f7f7;
-    padding: 80px 0;
-  }
-  
-  #contact .info {
-    color: #333333;
-  }
-   
-  #footer {
-    background: #111;
-    padding: 30px 0;
-    color: white;
-  }
-  
-  #footer .copyright {
-    text-align: center;
-  }
-  
-    
-  #n {
-    color: white;
-    font-style: initial;
-    background: linear-gradient(to left, rgba(236, 231, 231, 0), rgb(121, 116, 116));
-  
-  }
+}
 
-  #newsLetter img{
-    float: right;
-    border-width:5px;  
-    border-style:ridge;
+#omotac {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  /* 100% visine pregledača */
+  background: url(img/monitor-862116_960_720.jpg) top center;
+  background-size: cover;
+}
+
+#omotac .omotac-container {
+  /* zatamljena pozadina */
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#omotac .h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#omotac h2 {
+  color: #999;
+  margin-bottom: 50px;
+}
+
+#omotac .actions a {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+#omotac .dugme1 {
+  background: rgb(240, 88, 88);
+  border: 2px solid rgb(240, 88, 88);
+  color: white;
+}
+
+#omotac .dugme1:hover {
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+
+#omotac .dugme2 {
+  border: 2px solid white;
+  color: white;
+}
+
+#omotac .dugme2:hover {
+  background: rgb(240, 88, 88);
+  border: 2px solid rgb(240, 88, 88);
+}
+
+.section-title {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2.section-title{
+  color: white;
+}
+.section-title-divider {
+  width: 50px;
+  height: 3px;
+  background: rgb(240, 88, 88);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#oMeni {
+  background: white;
+  padding: 80px 0;
+}
+
+#tehn {
+  padding: 50px 50px 50px 50px;
+}
+
+#tehn .dugme1 {
+  background: rgb(240, 88, 88);
+  border: 2px solid rgb(240, 88, 88);
+  color: white;
+}
+
+#tehn .dugme1:hover {
+  background: none;
+  border: 2px solid rgb(98, 98, 98);
+  color: rgb(98, 98, 98);
+}
+
+#tehn .service-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#tehn .service-icon {
+  float: left;
+  background: rgb(240, 88, 88);
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid rgb(240, 88, 88);
+}
+
+#tehn .service-icon i {
+  color: white;
+  font-size: 24px;
+}
+
+#tehn .service-item:hover .service-icon {
+  background: white;
+}
+
+#tehn .service-item:hover .service-icon i {
+  color: rgb(240, 88, 88);
+}
+
+#tehn .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#tehn .service-title a {
+  color: #111;
+}
+
+#tehn .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+/* newsletter Section
+  --------------------------------*/
+
+#newsletter { 
+  /* fixed center - Fiksiram sliku da bude vezana za viewport (okvir prozora) i ostaje uvek na istom mestu nezavisno od toga da li se stranica skroluje. */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/newsletterbg.jpg") fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#newsletter .newsletter-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#newsletter .newsletter-text {
+  color: white;
+}
+
+#newsletter .newsletter-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#newsletter .newsletter-btn {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+#newsletter .newsletter-btn:hover {
+  background: rgb(240, 88, 88);
+  border: 2px solidrgb(240, 88, 88);
+}
 
 
-  }
+/* --------Projekti-----------*/
+
+#portfolio {
+  background: rgb(rgb(167, 162, 162));
+  padding: 50px 50px;
+  float: left;
+}
+
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  position: relative;
+  height: 250px;
+  width: 100%;
+  display: table;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+#portfolio .portfolio-item .tekst {
+  height: 260px;
+  background: white;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+}
+
+h3.section-title {
+  text-shadow: 5px 5px 10px red;
+}
+
+#portfolio .portfolio-item .tekst h4 {
+  font-size: 16px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(-10px, -20px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#portfolio .portfolio-item .tekst span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate3d(10px, 20px, 0);
+}
+
+#portfolio .portfolio-item:hover .tekst {
+  opacity: 0.8;
+}
+
+#portfolio .portfolio-item:hover .tekst h4 {
+  transform: translate3d(0, 0, 0);
+}
+
+#portfolio .portfolio-item:hover .tekst span {
+  transform: translate3d(0, 0, 0);
+}
+
+.infoMVP {
+  text-align: center;
+  display: flex-grow;
+  margin-bottom: 20px;
+}
+
+.infoMVP .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 100px;
+}
+
+#oMeni .infoMVP .pic img {
+  max-width: 70%;
+}
+
+#oMeni .infoMVP h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#oMeni .infoMVP .social {
+  margin-top: 15px;
+}
+
+#oMeni .infoMVP .social a {
+  color: #b3b3b3;
+}
+
+#oMeni .infoMVP .social a:hover {
+  color: rgb(240, 88, 88);
+}
+
+#oMeni .infoMVP .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#contact .info {
+  color: #333333;
+}
+
+#footer {
+  background: #111;
+  padding: 30px 0;
+  color: white;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#n {
+  color: white;
+  font-style: initial;
+  background-repeat: no repeat;
+  background-position: right-bottom;
+  background: linear-gradient(to left, rgba(236, 231, 231, 0), rgb(121, 116, 116));
+}
